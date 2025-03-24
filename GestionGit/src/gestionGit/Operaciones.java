@@ -2,7 +2,7 @@ package gestionGit;
 
 public class Operaciones {
 
-	public double sumar(int a, int b) {
+	public double sumar(double a, double b) {
 		return a + b;
 	}
 	
@@ -11,5 +11,8 @@ public class Operaciones {
 		return a-b;
 	}
 	
+	public int multiplicar (int a, int b) {
+		return a*b;
+	}
 	
 }
