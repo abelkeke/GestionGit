@@ -9,6 +9,7 @@ public class Main {
 		Operaciones op = new Operaciones();
 		System.out.println("Suma: " + op.sumar(3.7, 4.1));
 		System.out.println("Multiplicacion: " + op.multiplicar(4, 7));
+		System.out.println("Division: "+op.dividir(10,2));
 	}
 
 }
