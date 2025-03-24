@@ -11,7 +11,7 @@ public class Operaciones {
 		return a-b;
 	}
 	
-	public int multiplicar (int a, int b) {
+	public double multiplicar (double a, double b) {
 		return a*b;
 	}
 	
