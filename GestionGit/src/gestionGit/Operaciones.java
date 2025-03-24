@@ -7,6 +7,7 @@ public class Operaciones {
 	}
 	
 	public int restar (int a,int b) {
+		if(a<b) return 0;
 		return a-b;
 	}
 	
